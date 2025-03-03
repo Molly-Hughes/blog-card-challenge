@@ -10,17 +10,37 @@
       href="assets/images/favicon-32x32.png"
     />
     <title>Blog Preview Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <img src="assets/images/illustration-article.svg" alt="Blog image" />
-    <p>Learning</p>
-    <p>Published 21 Dec 2023</p>
-    <h2>HTML & CSS foundations</h2>
-    <p>
-      These languages are the backbone of every website, delivering structure,
-      content, and presentation.
-    </p>
-    <img src="assets/images/image-avatar.webp" alt="Greg Hooper" />
-    <p>Greg Hooper</p>
+    <div class="container">
+      <main>
+        <img
+          class="blog-cover"
+          src="assets/images/illustration-article.svg"
+          alt="Blog image"
+        />
+        <p class="blog-topic">Learning</p>
+        <p class="blog-date">Published 21 Dec 2023</p>
+        <a href="#" class="blog-title">HTML & CSS foundations</a>
+        <p class="blog-description">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+        <div id="author-info">
+          <img
+            class="author-img"
+            src="assets/images/image-avatar.webp"
+            alt="Greg Hooper"
+          />
+          <p class="author-name">Greg Hooper</p>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
